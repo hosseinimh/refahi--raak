@@ -1,0 +1,287 @@
+/* .App {
+  text-align: center;
+} */
+
+:root {
+  --color-primary: 30 64 175;
+  --color-secondary: 226 232 240;
+  --color-success: 132 204 22;
+  --color-info: 6 182 212;
+  --color-warning: 250 204 21;
+  --color-pending: 249 115 22;
+  --color-danger: 220 38 38;
+  --color-light: 241 245 249;
+  --color-dark: 30 41 59;
+}
+
+@font-face {
+  font-family: "IRANSansWeb";
+  src: local("IRANSansWeb"),
+    url("./fonts/IRANSansWeb.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "IRANSansWeb_FaNum";
+  src: local("IRANSansWeb_FaNum"),
+    url("./fonts/IRANSansWeb_FaNum.ttf") format("truetype");
+  font-weight: normal;
+}
+
+
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(var(--color-primary) / var(--tw-text-opacity));
+}
+
+.bg-menu-corner {
+  background-image: url("./images/m1.svg");
+}
+
+.newww {
+  background-color: red;
+}
+
+*>.-intro-x:nth-child(1) {
+  z-index: 49;
+  opacity: 0;
+  position: relative;
+  transform: translate(50px);
+  animation: .4s intro-x-animation ease-in-out .33333s;
+  animation-fill-mode: forwards;
+  animation-delay: .1s;
+}
+*>.intro-x:nth-child(1) {
+  z-index: 49;
+  opacity: 0;
+  position: relative;
+  transform: translate(-50px);
+  animation: .4s intro-x-animation ease-in-out .33333s;
+  animation-fill-mode: forwards;
+  animation-delay: .1s;
+}
+
+
+@keyframes intro-x-animation {
+  to {
+    opacity: 1;
+    transform: translate(0)
+  }
+}
+
+*>.-intro-x:nth-child(2) {
+  z-index: 48;
+  opacity: 0;
+  position: relative;
+  transform: translate(50px);
+  animation: .4s intro-x-animation ease-in-out .33333s;
+  animation-fill-mode: forwards;
+  animation-delay: .2s;
+  animation-delay: .2s;
+}
+*>.intro-x:nth-child(2) {
+  z-index: 48;
+  opacity: 0;
+  position: relative;
+  transform: translate(-50px);
+  animation: .4s intro-x-animation ease-in-out .33333s;
+  animation-fill-mode: forwards;
+  animation-delay: .2s;
+  animation-delay: .2s;
+}
+*>.-intro-x:nth-child(3) {
+  z-index: 47;
+  opacity: 0;
+  position: relative;
+  transform: translate(50px);
+  animation: .4s intro-x-animation ease-in-out .33333s;
+  animation-fill-mode: forwards;
+  animation-delay: calc(3 * .1s);
+}
+*>.intro-x:nth-child(3) {
+  z-index: 47;
+  opacity: 0;
+  position: relative;
+  transform: translate(-50px);
+  animation: .4s intro-x-animation ease-in-out .33333s;
+  animation-fill-mode: forwards;
+  animation-delay: calc(3 * .1s);
+}
+*>.intro-x:nth-child(4) {
+  z-index: 46;
+  opacity: 0;
+  position: relative;
+  transform: translate(-50px);
+  animation: .4s intro-x-animation ease-in-out .33333s;
+  animation-fill-mode: forwards;
+  animation-delay: .4s;
+}
+*>.-intro-x:nth-child(4) {
+  z-index: 46;
+  opacity: 0;
+  position: relative;
+  transform: translate(50px);
+  animation: .4s intro-x-animation ease-in-out .33333s;
+  animation-fill-mode: forwards;
+  animation-delay: .4s;
+}
+*>.intro-x:nth-child(5) {
+  z-index: 45;
+  opacity: 0;
+  position: relative;
+  transform: translate(-50px);
+  animation: .4s intro-x-animation ease-in-out .33333s;
+  animation-fill-mode: forwards;
+  animation-delay: .5s;
+}
+*>.-intro-x:nth-child(5) {
+  z-index: 45;
+  opacity: 0;
+  position: relative;
+  transform: translate(50px);
+  animation: .4s intro-x-animation ease-in-out .33333s;
+  animation-fill-mode: forwards;
+  animation-delay: .5s;
+}
+*>.intro-x:nth-child(6) {
+  z-index: 44;
+  opacity: 0;
+  position: relative;
+  transform: translate(-50px);
+  animation: .4s intro-x-animation ease-in-out .33333s;
+  animation-fill-mode: forwards;
+  animation-delay: calc(6 * .1s);
+}
+*>.-intro-x:nth-child(6) {
+  z-index: 44;
+  opacity: 0;
+  position: relative;
+  transform: translate(50px);
+  animation: .4s intro-x-animation ease-in-out .33333s;
+  animation-fill-mode: forwards;
+  animation-delay: calc(6 * .1s);
+}
+*>.intro-x:nth-child(7) {
+  z-index: 43;
+  opacity: 0;
+  position: relative;
+  transform: translate(-50px);
+  animation: .4s intro-x-animation ease-in-out .33333s;
+  animation-fill-mode: forwards;
+  animation-delay: calc(7 * .1s);
+}
+*>.-intro-x:nth-child(7) {
+  z-index: 43;
+  opacity: 0;
+  position: relative;
+  transform: translate(50px);
+  animation: .4s intro-x-animation ease-in-out .33333s;
+  animation-fill-mode: forwards;
+  animation-delay: calc(7 * .1s);
+}
+*>.intro-x:nth-child(8) {
+  z-index: 42;
+  opacity: 0;
+  position: relative;
+  transform: translate(-50px);
+  animation: .4s intro-x-animation ease-in-out .33333s;
+  animation-fill-mode: forwards;
+  animation-delay: .8s;
+}
+*>.-intro-x:nth-child(8) {
+  z-index: 42;
+  opacity: 0;
+  position: relative;
+  transform: translate(50px);
+  animation: .4s intro-x-animation ease-in-out .33333s;
+  animation-fill-mode: forwards;
+  animation-delay: .8s;
+}
+*>.intro-x:nth-child(9) {
+  z-index: 41;
+  opacity: 0;
+  position: relative;
+  transform: translate(-50px);
+  animation: .4s intro-x-animation ease-in-out .33333s;
+  animation-fill-mode: forwards;
+  animation-delay: .9s;
+}
+*>.-intro-x:nth-child(9) {
+  z-index: 41;
+  opacity: 0;
+  position: relative;
+  transform: translate(50px);
+  animation: .4s intro-x-animation ease-in-out .33333s;
+  animation-fill-mode: forwards;
+  animation-delay: .9s;
+}
+
+
+
+
+*>.intro-y:nth-child(1) {
+  z-index: 49;
+  opacity: 0;
+  position: relative;
+  transform: translateY(50px);
+  animation: .4s intro-y-animation ease-in-out .33333s;
+  animation-fill-mode: forwards;
+  animation-delay: .1s;
+}
+*>.intro-y:nth-child(2) {
+  z-index: 48;
+  opacity: 0;
+  position: relative;
+  transform: translateY(50px);
+  animation: .4s intro-y-animation ease-in-out .33333s;
+  animation-fill-mode: forwards;
+  animation-delay: .2s;
+}
+*>.intro-y:nth-child(3) {
+  z-index: 47;
+  opacity: 0;
+  position: relative;
+  transform: translateY(50px);
+  animation: .4s intro-y-animation ease-in-out .33333s;
+  animation-fill-mode: forwards;
+  animation-delay: calc(3 * .1s);
+}
+@keyframes intro-y-animation {
+  to {
+    opacity: 1;
+    transform: translate(0)
+  }
+  
+}
+
+/*  custom input date picker */
+
+.custom-input{
+width: 100%;
+display: block;
+font-size: 14px;
+border: 1px solid rgb(226 232 240 );
+border-radius: 6px;
+margin-bottom: 4px;
+padding: 12px 16px;
+box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+opacity: 0;
+position: relative;
+transform: translate(-50px);
+animation: .4s intro-x-animation ease-in-out .33333s;
+animation-fill-mode: forwards;
+animation-delay: .1s;
+
+}
+.custom-input:focus{
+  outline:auto 2px rgb(49 46 129 / 0.2);
+  box-shadow:  0 0 0 4px rgb(49 46 129 / 0.2);
+  border:1px solid rgb(49 46 129 / 0.4);;
+}
+.custom-input:focus-visible{
+  outline-width:0;
+
+}
+
+/* 
+" shadow-sm  border-slate-200  placeholder:text-slate-400/90 placeholder:text-xs focus:ring-4 focus:ring-primary focus:ring-opacity-20 focus:border-primary focus:border-opacity-40 focus-visible:outline-0 intro-x */
